@@ -106,4 +106,3 @@ build_script:
   - ps: Get-ChildItem -Recurse 'C:\Users\appveyor\.m2' | Measure-Object -Property Length -Sum
   a= temp
   a=b
-  temp=b
