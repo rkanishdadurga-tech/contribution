@@ -104,7 +104,6 @@ build_script:
   - ps: Get-ChildItem -Recurse 'C:\maven\apache-maven-3.8.8' | Measure-Object -Property Length -Sum
   - ps: Get-ChildItem -Recurse 'C:\groovy\groovy-5.0.0' | Measure-Object -Property Length -Sum
   - ps: Get-ChildItem -Recurse 'C:\Users\appveyor\.m2' | Measure-Object -Property Length -Sum
-  
   a= temp
   a=b
   temp=b
